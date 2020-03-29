@@ -1,0 +1,1 @@
+wget -P /home/drew/Documents/open_fda_data/get_openFDA_links/files/zip_files -i open_fda_file_list.txt

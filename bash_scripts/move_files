@@ -1,0 +1,4 @@
+cd data_test_combine_zip
+
+mv *.txt data/
+

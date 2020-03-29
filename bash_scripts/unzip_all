@@ -1,0 +1,15 @@
+cd files/zip_files
+
+mkdir tmp
+
+for f in *.zip*; do unzip "$f" -d tmp && mv tmp/* "${f%.zip}.json"; done
+
+rmdir tmp
+
+cd ..
+
+mkdir json_files
+
+mv zip_files/*.json json_files/
+
+
